@@ -17,5 +17,10 @@ history --> muestra el historial de comandos entrados en la terminal
 !nombre (ej.!37)--> permite copiar el codigo de un comando a traves de history
 rm nombre_arhivo --> borrar archivo (cuidado!! no usar)
 comando --help --> ver opciones del comando
+git init --> Crea un staging area y repositorio local
+git status --> muestra el status de los archivos en el proyecto
+git add nombre_archivo / (git add ./ git add -A)--> guarda el archivo en el staging area
+git commit -m "mensaje" --> guarda archivo en repo local
+git config --global user.name/email --> para modificar correo y nombre del usuario
  
 
