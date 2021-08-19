@@ -1,0 +1,21 @@
+git
+
+comandos:
+
+pwd--> me mustra la ruta actual
+ls--> lista los archivos de la ruta actual
+ls  -al --> muestra los archivos ocultos de la ruta
+clear --> limpia la consola o bash
+Ctl+l--> limpia en bas con teclado
+cd ..--> dar click atras
+cd nombre_archivo --> ingreso al archivo
+mkdir nombre archivo --> crear una carpeta
+cd nombre_archivo --> para llegar al archivo (con escribir una o 2 letras + TAB)= autocompletar
+cd nombre_archivo+ext(ej.txt)--> para crear archivo
+cat nombre_archivo --> permite ver lo que hay dentro del archivo
+history --> muestra el historial de comandos entrados en la terminal
+!nombre (ej.!37)--> permite copiar el codigo de un comando a traves de history
+rm nombre_arhivo --> borrar archivo (cuidado!! no usar)
+comando --help --> ver opciones del comando
+ 
+
