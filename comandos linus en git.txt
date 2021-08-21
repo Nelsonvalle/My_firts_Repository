@@ -21,6 +21,7 @@ git init --> Crea un staging area y repositorio local
 git status --> muestra el status de los archivos en el proyecto
 git add nombre_archivo / (git add ./ git add -A)--> guarda el archivo en el staging area
 git commit -m "mensaje" --> guarda archivo en repo local
+git commit am "mensaje" --> envia el add y el commit al mismo tiempo
 git config --global user.name/email --> para modificar correo y nombre del usuario
 git log --> muestra todos los commit hechos
 git show nombre_archivo --> para ver los commit de ese archivo en general
