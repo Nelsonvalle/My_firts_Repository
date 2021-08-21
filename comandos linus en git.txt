@@ -31,5 +31,11 @@ git branch header --> Asi se crea una nueva rama
 git branch --list --> me muestra todas las ramas
 git checkout nombre rama --> para cambiar de rama
 git merge nombre de cabecera --> Unir el trabajo de varias ramas (Ojo! Antes de hacer merge, hay que pararse en la rama que se quiere que contenga a otra
+
+COMUNICARSE CON GITHUB
+
+git remote add origin (URL) --> Asi se crea un canal de comunicacion con github. la URL se saca despues de crear un repositorio en github
+git pull origin (nombre de la rama) --allow-unrelated-histories --> para que el README creado por defecto en el proyecto remoto, no genere conflicto en la conexion
+
  
 
