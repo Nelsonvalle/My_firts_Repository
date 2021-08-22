@@ -39,5 +39,11 @@ git pull origin (nombre de la rama) --allow-unrelated-histories --> para que el 
 git push origin (nombre rama) --> para enviar todos los archivos al repo remoto
 
 COMUNICARSE CON GITHUB A TRAVES DE PROTOCOLO SSH (mas seguro)
+
+ssh-keygen -t rsa -b 4096 -C "nelson.valle@udea.edu.co" --> asi se crean las llaves publicas y privadas
+eval $(ssh-agent -s) --> comando para comprobar que hay conexion para recibir archivos ssh
+ssh-add ~/.ssh/id_rsa --> agregar llave privada con mi correo
+git remote set-url origin git@github.com:Nelsonvalle/My_firts_Repository.git --> para cambiar el origen y 
+que se comunique a traves de ssh
  
 
