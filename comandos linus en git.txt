@@ -45,5 +45,14 @@ eval $(ssh-agent -s) --> comando para comprobar que hay conexion para recibir ar
 ssh-add ~/.ssh/id_rsa --> agregar llave privada con mi correo
 git remote set-url origin git@github.com:Nelsonvalle/My_firts_Repository.git --> para cambiar el origen y 
 que se comunique a traves de ssh
+
+Como crear versiones o tag en git:
+git tag -a (nombre de la version) -m "texto commit" (agregar sha [se saca con git log --oneline]) --> sirve para
+agregar un tag 
+git tag --> para ver qu versiones o tags tengo
+git show-ref --tags --> se busca el numero del comiit de un tag (version) especifica
+git push origin --tags --> asi se crea y sube al github el tag creado
+git tag -d Vo.2 --> para eliminar un tag erroneo en repo local
+ git push origin :refs/tags/Vo.2 --> para que el tag borrado se vea reflejado en repo remoto
  
 
