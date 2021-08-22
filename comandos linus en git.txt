@@ -27,7 +27,7 @@ git log --> muestra todos los commit hechos
 git show nombre_archivo --> para ver los commit de ese archivo en general
 git diff sha1(mas viejo) sha2(mas nuevo)--> para comparar cambios entre commits
 git reset (sha que quiero eliminar) --hard --> para volver a el commit seleccionado
-git branch header --> Asi se crea una nueva rama
+git branch (nombre rama) --> Asi se crea una nueva rama
 git branch --list --> me muestra todas las ramas
 git checkout nombre rama --> para cambiar de rama
 git merge nombre de cabecera --> Unir el trabajo de varias ramas (Ojo! Antes de hacer merge, hay que pararse en la rama que se quiere que contenga a otra
