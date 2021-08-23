@@ -30,9 +30,9 @@ git reset (sha que quiero eliminar) --hard --> para volver a el commit seleccion
 git branch (nombre rama) --> Asi se crea una nueva rama
 git branch --list --> me muestra todas las ramas
 git checkout nombre rama --> para cambiar de rama
-git merge nombre de cabecera --> Unir el trabajo de varias ramas (Ojo! Antes de hacer merge, hay que pararse en la rama que se quiere que contenga a otra
+git merge (nombre rama) --> Unir el trabajo de varias ramas (Ojo! Antes de hacer merge, hay que pararse en la rama que se quiere que contenga a otra
 
-COMUNICARSE CON GITHUB A TRAVES DE PROTOCOLO HTTPS
+COMUNICARSE CON GITHUB 
 
 git remote add origin (URL) --> Asi se crea un canal de comunicacion con github. la URL se saca despues de crear un repositorio en github
 git pull origin (nombre de la rama) --allow-unrelated-histories --> para que el README creado por defecto en el proyecto remoto, no genere conflicto en la conexion
@@ -40,7 +40,7 @@ git push origin (nombre rama) --> para enviar todos los archivos al repo remoto
 
 COMUNICARSE CON GITHUB A TRAVES DE PROTOCOLO SSH (mas seguro)
 
-ssh-keygen -t rsa -b 4096 -C "nelson.valle@udea.edu.co" --> asi se crean las llaves publicas y privadas
+ssh-keygen -t rsa -b 4096 -C "nelson.valle@udea.edu.co" --> asi se crean las llaves publicas y privadas (solo se hace una vez)
 eval $(ssh-agent -s) --> comando para comprobar que hay conexion para recibir archivos ssh
 ssh-add ~/.ssh/id_rsa --> agregar llave privada con mi correo
 git remote set-url origin git@github.com:Nelsonvalle/My_firts_Repository.git --> para cambiar el origen y 
